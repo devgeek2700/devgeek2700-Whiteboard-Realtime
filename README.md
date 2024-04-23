@@ -62,6 +62,8 @@ docker run -d -p 4000:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=ad
 4. In the client settings, add the web origin as http://localhost:5174
 5. Add other settings like user registration, max/min password lengths, etc.
 
+
+
 ## Technologies Used
 
 - ReactJS
