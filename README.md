@@ -20,6 +20,7 @@ Realtime Whiteboard is a collaborative online whiteboard application where multi
 ```bash
 git clone https://github.com/coderSomya/Realtime-whiteboard.git
 cd realtime-whiteboard
+```
 
 
 
@@ -27,30 +28,31 @@ cd realtime-whiteboard
 
 Add a `.env` file in the `/auth` directory:
 
-
+```bash
 VITE_KEYCLOAK_URL="http://127.0.0.1:4000"
 VITE_KEYCLOAK_REALM=<your_keycloak_realm>
 VITE_KEYCLOAK_CLIENT_ID=<your_keycloak_client_id>
 VITE_WHITEBOARD_URL="http://localhost:5173"
-
+```
 
 3. Start the server
 
+```bash
 npm i
 npm run dev
-
+```
 
 4. Start the client
-
+```bash
 cd frontend
 npm i
 npm run dev
-
+```
 
 5. Spin up Keycloak on a Docker container
-
+```bash
 docker run -d -p 4000:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:20.0.3 start-dev
-
+```
 
 ## Keycloak Setup
 
