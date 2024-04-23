@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whiteboard</title>
+  </head>
+  
+<link rel="stylesheet" href="style.css">
+  <body>
+<!-- <div class="controls">
+  <button id="pencil">Pencil</button>
+  <button id="rectangle">Rectangle</button>
+  <input id="FontSize" placeholder="Font Size" type="number">
+  <button id="saveBtn">Save</button>
+  <input id="color" type="color">
+</div> -->
+  
+
+
+
+<center> <h1>Realtime Whiteboard</h1></center>
+
+
+
+<nav>
+  <div class="nav-box">
+    <ul class="nav-container">
+      <li class="nav__item active">
+        <a class="nav__item-link">
+          <div class="nav__item-icon">
+            <ion-icon name="pencil"></ion-icon>
+          </div>
+          <button id="pencil">Pencil</button>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__item-link">
+          <div class="nav__item-icon">
+            <ion-icon name="tablet-landscape-outline"></ion-icon>
+          </div>
+          <button id="rectangle">Rectangle</button>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__item-link">
+          <div class="nav__item-icon">
+            <ion-icon name="arrow-undo-outline"></ion-icon>
+          </div>
+          <button id="undoBtn">Undo</button>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__item-link">
+          <div class="nav__item-icon">
+            <ion-icon name="download"></ion-icon>
+          </div>
+          <button id="saveBtn">Save</button>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="/rooms" class="nav__item-link">
+          <div class="nav__item-icon">
+            <ion-icon name="tv-outline"></ion-icon>
+           </div>
+          <button>Rooms</button>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__item-link">
+          <div class="nav__item-icon">
+            <ion-icon name="crop-outline"></ion-icon>
+          </div>
+          <input maxlength="10" id="FontSize"  type="number">
+        </a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__item-link">
+          <div class="nav__item-icon">
+            <ion-icon name="color-palette-outline"></ion-icon>
+          </div>
+          <input placeholder="color" id="color" type="color">
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+
+   <script type="module" src="/src/main.ts"></script>
+
+</html>

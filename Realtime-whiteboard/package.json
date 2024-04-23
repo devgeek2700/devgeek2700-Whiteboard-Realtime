@@ -1,0 +1,22 @@
+{
+  "name": "live-whiteboard",
+  "version": "1.0.0",
+  "description": "Realtime creative collaboration",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "html2canvas": "^1.4.1",
+    "nodemon": "^3.0.2",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "ts-node": "^10.9.2",
+    "ws": "^8.14.2"
+  }
+}
