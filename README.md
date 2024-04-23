@@ -62,6 +62,9 @@ docker run -d -p 4000:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=ad
 4. In the client settings, add the web origin as http://localhost:5174
 5. Add other settings like user registration, max/min password lengths, etc.
 
+## Demo
+
+![screenShare1](https://github.com/coderSomya/Realtime-whiteboard/assets/98840655/f299ab9d-83b0-4cd5-9ef5-b0b5e80b9a19)
 
 
 ## Technologies Used
